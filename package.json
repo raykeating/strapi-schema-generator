@@ -1,0 +1,30 @@
+{
+  "name": "generate-strapi-schema",
+  "version": "1.0.1",
+  "description": "A command-line utility that reads through your Strapi project files and generates a single API schema file.",
+  "main": "index.js",
+  "bin": {
+    "strapi-schema-generator": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raykeating/strapi-schema-generator.git"
+  },
+  "keywords": [
+    "strapi",
+    "schema-generator",
+    "nodejs",
+    "node",
+    "npx",
+    "command-line-tool"
+  ],
+  "author": "Ray Keating",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raykeating/strapi-schema-generator/issues"
+  },
+  "homepage": "https://github.com/raykeating/strapi-schema-generator#readme",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
